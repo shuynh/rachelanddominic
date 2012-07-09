@@ -50,7 +50,7 @@ color: black;
 font-family: proxima-nova,"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 font-weight: 300;
 text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-line-height: 35px;
+line-height: 42px;
 }
 
 .underlined {
@@ -59,4 +59,91 @@ border-bottom:3px solid #231F20;
 
 ::selection {
 background:#FFF966;  
+}
 
+/* google doc form */
+
+.ss-form {
+float:left;
+width:390px;
+text-align:left;
+position:relative;
+}
+
+.ss-form-title {
+margin-left:0px;
+text-align:left;
+}
+
+.ss-item {
+font-size:15px;
+width:300px;
+
+}
+
+input {
+border:1px solid #dadada;
+font-size:14px;
+letter-spacing:2px;
+padding:10px;
+background: none repeat scroll 0 0 #FFFFFF;
+}
+
+input:focus {
+outline:none;
+border-color:#9ecaed;
+box-shadow:0 0 10px #9ecaed;
+}
+
+.ss-textarea{
+max-width:99%}
+
+
+.ss-q-long{
+max-width:90%}
+
+.ss-q-title{
+font-size:16px;
+width:300px;
+color:black;
+}
+
+.errorbox-good {
+width:140px;
+}
+
+.ss-form-entry{
+width:150px;
+margin-bottom:1em;
+
+
+}
+.ss-choices{
+list-style:none;
+margin:.5em 0 0 0;
+}
+
+.ss-choices li {
+display:inline;
+list-style-type: none;
+padding-right:8px;
+}
+
+label{
+display:block;
+cursor:pointer
+}
+
+ul label {
+display:inline
+}
+
+input {
+  border:1px solid #dadada;
+  font-size:14px;
+  letter-spacing:2px;
+  padding:10px;
+  background: none repeat scroll 0 0 #FFFFFF;
+}
+
+              
