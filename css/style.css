@@ -146,4 +146,15 @@ input {
   background: none repeat scroll 0 0 #FFFFFF;
 }
 
-              
+.party{
+padding-bottom:20px;
+}
+
+.imgbox {
+float: left;
+text-align: center;
+width: 150px;
+height: 170px;
+margin: 4px;
+margin-bottom: 8px;
+padding: 0px;              

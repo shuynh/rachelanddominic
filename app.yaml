@@ -1,0 +1,12 @@
+application: rachelanddominic
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /(.*\.(gif|png|jpg|jpeg|JPG|ico|js|css))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|jpeg|JPG|ico|js|css))
+
+- url: .*
+  script: main.py
