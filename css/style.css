@@ -104,7 +104,7 @@ max-width:90%}
 
 .ss-q-title{
 font-size:16px;
-width:300px;
+width:340px;
 color:black;
 }
 
@@ -120,7 +120,9 @@ margin-bottom:1em;
 }
 .ss-choices{
 list-style:none;
+width:320px;
 margin:.5em 0 0 0;
+
 }
 
 .ss-choices li {
